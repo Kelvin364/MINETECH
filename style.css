@@ -2,19 +2,58 @@
     margin: 0;
     padding: 0;
 }
-header{
-    width: 100%;
-    height:80px;
+/* header styles */
+header {
+    text-align: center;
+    background-color: rgb(251, 251, 251);
+}
+/* .logo img, h1 {
+    border: 1px solid red;
+} */
+header .logo {
+    padding-top: 10px;
+    /* border: 1px solid red; */
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    background-color: rgb(218, 218, 218);
-
+    font-family: 'poppins';
+}
+.logo img {
+    margin: 0;
+    padding: 0;
+}
+.icon {
+    /* border: 1px solid red; */
+    padding: 0px 30px 0px 0px;
+    height: 50px;
+    width: 80px;  
+}
+header ul {
+    list-style: none;
+    /* border: 1px solid red; */
+    margin-top: 10px;
+}
+header ul li {
+    padding-top: 10px;
+}
+header ul li:last-child {
+    padding-bottom: 10px;
+}
+header ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'poppins';
+    text-transform: uppercase;
+    font-weight: 600;
+}
+header ul li a:hover {
+    color: blue;
 }
 header:active, header:focus, header:hover {
     /* Remove hover effects as they might interfere with transparency */
     background-color: rgba(218, 218, 218, 0.8);
-  }
+}
+/* end of header styles */
 .background-container{
     background-image: url("./image/pexels-urtimud-14263363.jpg");
     width:100%;
@@ -23,45 +62,7 @@ header:active, header:focus, header:hover {
      background-repeat: no-repeat;
 
 }  
-.logo{
-    justify-content: flex-start;
-    align-items: center;
-    margin:0;
-    padding:0;
-    display: flex;
-    padding-right: 300px;
-    margin-left: 20px;
- 
-    
-}
-.logo img{
-    padding-right: 0px;
-}
 
-.logo h1 {
-    padding:0;
-    font-size: larger;
-    font-weight: bold;
-    font-family: "poppins";
-    color: rgb(9, 9, 9);
-    margin-right: 100px;
-   
-}
-.button-header-icon {
-    /* border: 1px solid red; */
-    display: flex;
-    align-items: center;
-    margin-right: 50px;
-    justify-content: space-between;
-    width:40%;
-    height: 40px;
-}
-.icon {
-    /* border: 1px solid red; */
-    padding: 0px 30px 0px 0px;
-    height: 50px;
-    width: 80px;  
-}
 button {
     border: none; /* Remove default borders */
   background: none; /* Remove default backgrounds */
