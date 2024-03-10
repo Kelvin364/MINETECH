@@ -1,0 +1,18 @@
+@media screen and (min-width: 900px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    header .logo {
+        padding-top: 0;
+    }
+    .logo, .button-header-icon {
+        margin: 20px 30px;
+    }
+    header ul {
+        display: flex;
+    }
+    header ul li {
+        padding-left: 30px;
+    }
+}
